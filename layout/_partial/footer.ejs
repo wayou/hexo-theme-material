@@ -1,0 +1,8 @@
+<p><i class="icon-material-keyboard-arrow-left" style="font-size: 10pt;"></i>/<i class="icon-material-keyboard-arrow-right" style="font-size: 10pt;"></i> with <i class="icon icon-material-favorite icon-material-red" style="font-size: 10pt;"></i> by tieba fe internal team with the help of <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a>
+</p>
+<p><% if (config.author){ %>
+  &copy; <%= new Date().getFullYear() %> <a href="<%= config.url %>"><%= config.author %></a>
+  <% } else { %>
+  &copy; <%= new Date().getFullYear() %> <a href="<%= config.url %>"><%= config.title %></a>
+  <% } %>
+</p>
