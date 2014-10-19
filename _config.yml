@@ -3,12 +3,8 @@ slogan: ""
 menu:
   - title: 首页
     url: 
-    intro: "贴吧FE内部首页"
-    icon: "fa fa-paw"
-  - title: 工具 
-    url: tools
-    intro: "项目集"
-    icon: "fa fa-th-large"
+    intro: "首页"
+    icon: "fa fa-home"
   - title: 存档
     url: archives
     intro: "全部文章"
@@ -17,10 +13,6 @@ menu:
     url: categories
     intro: "所有分类"
     icon: "fa fa-folder"
-  # - title: Tags
-  #   url: tags
-  #   intro: "All the tags."
-  #   icon: "fa fa-tags"
   - title: 关于
     url: about
     intro: "简介"
@@ -31,10 +23,6 @@ menu:
     icon: "fa fa-rss"
 
 links:
-  - title: 贴吧FE WiKi
-    url: http://wiki.baidu.com/pages/viewpage.action?pageId=30638799
-    intro: "百度贴吧FE团队WiKi主页"
-    icon: "fa fa-code"
   - title: "source"
     url: http://www.github.com/wzpan
     intro: "My Github account."
