@@ -1,4 +1,4 @@
-slogan: ""
+#slogan: ""
 
 menu:
   - title: 首页
@@ -24,7 +24,7 @@ menu:
 
 links:
   - title: "source"
-    url: http://www.github.com/wzpan
+    url: http://www.github.com/wayou
     intro: "My Github account."
     icon: "fa fa-github"
 
