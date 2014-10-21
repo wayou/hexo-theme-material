@@ -11,13 +11,11 @@ $(function() {
         //sticky the toc
         var $window = $(window),
             $stickyEl = $('#toc'),
-            elTop = $stickyEl.offset().top;
+            elTop;
         $window.scroll(function() {
-            $stickyEl.toggleClass('sticky-scroll', $window.scrollTop() > elTop - 110);
+            elTop = $stickyEl.offset().top;
+            $stickyEl.toggleClass('sticky-scroll', elTop > 155);
         });
-        // setTimeout(function(){
-        //     $stickyEl.toggleClass('sticky-scroll', $window.scrollTop() > elTop - 155);
-        // },1000);
     }
 
     // highlight the menu
