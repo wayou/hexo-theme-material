@@ -586,6 +586,13 @@ td {
     display: none;
   }
 }
+/*make the date beside title wrap to next line on mobile*/
+@media screen and (max-width:415px) {
+ .page h3.title span.date{
+  position: static;
+  display: inline-block;
+ }
+}
 
 /*make data, category and tag of a post display in standalone line when on small screen*/
 .post-meta-item{
