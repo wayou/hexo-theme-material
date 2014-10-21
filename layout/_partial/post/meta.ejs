@@ -29,16 +29,9 @@
 	<% } %>	-->
 
 	<!-- toc -->
-	<div class="meta-widget">
-	<% if(item.toc){ %>
-	   <!-- <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a> -->
-	   <div id="toc" >
-			<%- toc(item.content, {class: "nav", list_number:false}) %>
-		</div>
-	<% } %>
-	</div>
-	<!-- toc -->
-	<div id="toc" ></div>
+	<% if (item.toc) { %>
+		<div id="toc" ></div>
+	<% } %>		
 </div><!-- col-md-3 -->
 
 

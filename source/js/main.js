@@ -1,6 +1,6 @@
 $(function() {
     var $toc = $("#toc");
-    if ( !! $toc.length && screen.width > 999) {
+    if ( !! $toc.length && screen.width > 999&&$('.mypage').find('h1').length!=0) {
         $("#toc").tocify({
             context: '.mypage',
             scrollHistory: true,

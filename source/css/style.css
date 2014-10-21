@@ -591,9 +591,8 @@ td {
   display: inline-block;
 }
 
-/*hide pace cirlce progress*/
-.pace-activity{
-  display: none!important;
+.title a:hover,.title a:focus{
+  text-decoration: none;
 }
 
 .widget-wrapper{
