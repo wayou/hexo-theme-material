@@ -1,9 +1,9 @@
 $(function() {
     var $toc = $("#toc");
-    if ( !! $toc.length && screen.width > 999&&$('.mypage').find('h1').length!=0) {
+    if ( !! $toc.length && screen.width > 999 && $('.mypage').find('h1').length != 0) {
         $("#toc").tocify({
             context: '.mypage',
-            scrollHistory: true,
+            // scrollHistory: true,
             theme: 'bootstrap3',
             selectors: 'h1,h2'
         });
@@ -15,11 +15,22 @@ $(function() {
         $window.scroll(function() {
             $stickyEl.toggleClass('sticky-scroll', $window.scrollTop() > elTop - 110);
         });
+        // setTimeout(function(){
+        //     $stickyEl.toggleClass('sticky-scroll', $window.scrollTop() > elTop - 155);
+        // },1000);
     }
 
     // highlight the menu
     menuHighlight();
 
+    //show back to top btn on none mobile screen
+    $(window).scroll(function() {
+        if ($(this).scrollTop()) {
+            $('#gotop:hidden').stop(true, true).fadeIn();
+        } else {
+            $('#gotop').stop(true, true).fadeOut();
+        }
+    });
 });
 
 //this is adapted from http://css-tricks.com/moving-highlight/

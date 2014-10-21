@@ -3,23 +3,23 @@
 menu:
   - title: 首页
     url: 
-    intro: "首页"
+    intro: ""
     icon: "fa fa-home"
   - title: 存档
     url: archives
-    intro: "全部文章"
+    intro: ""
     icon: "fa fa-list"
   - title: 分类 
     url: categories
-    intro: "所有分类"
+    intro: ""
     icon: "fa fa-folder"
   - title: 关于
     url: about
-    intro: "简介"
+    intro: ""
     icon: "fa fa-info-circle"
   - title: RSS
     url: atom.xml
-    intro: "订阅"
+    intro: ""
     icon: "fa fa-rss"
 
 links:
