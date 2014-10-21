@@ -25,6 +25,14 @@
 			</div>
 			<% } %>
 
+			<!-- author -->
+			<% if (item.author) { %>
+			<div class="post-meta-item">
+				<i class="fa fa-user" title="<%= __('author') %>"></i>
+				<span ><%= item.author %></span>
+			</div>
+			<% } %>
+
 			<!-- categories -->
 		    <% if (item.categories  && item.categories.length ) { %>
 			<div class="post-meta-item">
