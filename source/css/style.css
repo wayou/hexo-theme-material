@@ -599,3 +599,7 @@ td {
 .widget-wrapper{
   margin: 15px 0;
 }
+
+.tocify{
+  border-radius: 0;
+}
