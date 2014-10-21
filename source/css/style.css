@@ -597,7 +597,7 @@ td {
 /*make data, category and tag of a post display in standalone line when on small screen*/
 .post-meta-item{
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 15px;
 }
 
 .title a:hover,.title a:focus{
