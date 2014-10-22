@@ -617,3 +617,7 @@ td {
 footer{
   color:#999;
 }
+
+figure.highlight{
+  margin-bottom: 20px;
+}

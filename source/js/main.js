@@ -5,7 +5,7 @@ $(function() {
             context: '.mypage',
             // scrollHistory: true,
             theme: 'bootstrap3',
-            selectors: 'h1,h2'
+            selectors: 'h1,h2,h3'
         });
 
         //sticky the toc
