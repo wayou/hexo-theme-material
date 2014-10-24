@@ -11,11 +11,16 @@ $(function() {
         //sticky the toc
         var $window = $(window),
             $stickyEl = $('#toc'),
-            elTop;
+            elTop = $stickyEl.offset().top;
+        //for page refresh, we can right position the toc
+        $stickyEl.toggleClass('sticky-scroll', elTop > 155);
+
+        //listen the window scroll
         $window.scroll(function() {
             elTop = $stickyEl.offset().top;
             $stickyEl.toggleClass('sticky-scroll', elTop > 155);
         });
+
     }
 
     // highlight the menu
