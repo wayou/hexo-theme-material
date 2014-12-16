@@ -388,40 +388,6 @@ h4 {
   padding-top: 10px 0;
 }
 
-.page .entry h2{
-  display:block; overflow: hidden; width: 0; height: 0;
-  margin: -20px 0;
-}
-
-.page .entry h3{
-  display:block; overflow: hidden; width: 0; height: 0;
-}
-
-.page .entry .col-md-8{
-  margin: 10px 0;
-}
-
-.page h3.title {
-  position:relative;
-  padding: 2px 5px 5px 5px;
-  border-bottom:1px solid #f2f2f2;
-  font-size: 1.9em;
-  font-weight: normal;
-  font-family: 'PT Sans Narrow', '雅黑', '文泉驿微米黑', '黑体', sans-serif;
-  /*background-color: #e5e5e5;*/
-}
-
-.page h3.title a {
-  /*color: black;*/
-}
-
-.page h3.title span.date {
-  position:absolute;
-  right:5px;
-  font-size:0.7em;
-  color: #777;
-}
-
 
 /* =============================================================================
    Archives list
