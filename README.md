@@ -6,5 +6,3 @@ to enable duoshuo comment, add the following to config.yml:
 ```yml
 duoshuo_shortname: your duoshuo shortname
 ```
-
-[live preview](wayou.github.io)
