@@ -9,10 +9,6 @@ menu:
     url: archives
     intro: ""
     icon: "fa fa-list"
-  - title: 分类 
-    url: categories
-    intro: ""
-    icon: "fa fa-folder"
   - title: 关于
     url: about
     intro: ""
@@ -23,10 +19,14 @@ menu:
     icon: "fa fa-rss"
 
 links:
-  - title: "source"
+  - title: "GitHub"
     url: http://www.github.com/wayou
-    intro: "My Github account."
+    intro: "码农之家"
     icon: "fa fa-github"
+  - title: "微博"
+    url: http://www.weibo.com/liuwayong
+    intro: "twitter的本地化版本"
+    icon: "fa fa-weibo"
 
 widgets:
 # - search
