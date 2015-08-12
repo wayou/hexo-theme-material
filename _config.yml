@@ -15,7 +15,7 @@ menu:
     icon: "fa fa-info-circle"
   - title: RSS
     url: atom.xml
-    intro: ""
+    intro: "这是一个订阅源"
     icon: "fa fa-rss"
 
 links:

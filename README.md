@@ -6,3 +6,7 @@ to enable duoshuo comment, add the following to config.yml:
 ```yml
 duoshuo_shortname: your duoshuo shortname
 ```
+
+**screenshot**
+
+![hexo-theme-material](https://raw.githubusercontent.com/wayou/hexo-theme-material/master/assets/screenshot.png)
