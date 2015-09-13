@@ -31,7 +31,7 @@ widgets:
 - links
 
 rss:
-favicon: favicon.png
+favicon: favicon.ico
 google_analytics:
 # baidu_analytics: 392796d51567e848aebf813b65cb8656
 footer: ""
