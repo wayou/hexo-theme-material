@@ -1,14 +1,22 @@
-<%- partial('_partial/head') %>
- <body>  
-  <%- partial('_partial/navigation') %>
-  <div class="container" >
-  	<div class="content">
-    	 <%- body %>
-	</div>
-  </div>
-  <div class="container-narrow">
-  <footer> <%- partial('_partial/footer') %> </footer>
-</div> <!-- container-narrow -->
-  <%- partial('_partial/after_footer') %>
-</body>
+	<%- partial('_partial/head') %>
+ 	<body>
+	  <%- partial('_partial/navigation') %>
+	  <div class="container" >
+	    <%- body %>
+			<footer>
+				<%- partial('_partial/footer') %>
+			</footer>
+	  </div>
+
+		<script src="<%- config.root %>libs/bs/js/bootstrap.min.js"></script>
+		<!-- material design -->
+		<script src="<%- config.root %>libs/bs-material/js/ripples.js"></script>
+		<script src="<%- config.root %>libs/bs-material/js/material.js"></script>
+		<!-- toc -->
+		<script src="<%- config.root %>libs/tocify/jquery-ui.custom.min.js"></script>
+		<script src="<%- config.root %>libs/tocify/jquery.tocify2.js"></script>
+
+		<script src="<%- config.root %>js/main.js"></script>
+
+	</body>
 </html>
