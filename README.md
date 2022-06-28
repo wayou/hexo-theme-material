@@ -1,4 +1,4 @@
-a theme for [hexo](http://www.hexo.io) with the [bootstrap material design theme](http://fezvrasta.github.io/bootstrap-material-design/) adapted from [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind)
+a theme for [hexo](http://www.hexo.io) with the [bootstrap material design theme](https://mdbootstrap.com/) adapted from [hexo-theme-freemind](https://github.com/wzpan/hexo-theme-freemind)
 
 it's recommanded to install [hexo-console-optimize](https://github.com/FlashSoft/hexo-console-optimize) to optimize the output files
 
